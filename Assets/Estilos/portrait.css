@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#conteiner-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Imagens/Template/Templeite-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .FundoEscuro {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.388);
+    }
+
+    .conteudoConteiner1 {
+        animation: MeuSlogan 1s ease;
+    }
+    
+    @keyframes MeuSlogan {
+        to {
+            left: 50%;
+        }
+    
+        from {
+            left: -200%;
+        }
+    }
+    .conteudoConteiner1>button {
+        padding: 1.2rem 6rem;
+        font-size: 1.4rem;
+        font-weight: bolder;
+        animation: meusBotoes 1.4s ease;
+        font-family: 'poppins', 'kanit', 'sansita', 'ubuntu';
+        letter-spacing: 2px;
+    }
+    
+}
+
+
+#conteiner-2 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
