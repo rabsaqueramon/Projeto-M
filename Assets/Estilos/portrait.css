@@ -17,16 +17,17 @@
     .conteudoConteiner1 {
         animation: MeuSlogan 1s ease;
     }
-    
+
     @keyframes MeuSlogan {
         to {
             left: 50%;
         }
-    
+
         from {
             left: -200%;
         }
     }
+
     .conteudoConteiner1>button {
         padding: 1.2rem 6rem;
         font-size: 1.4rem;
@@ -35,16 +36,25 @@
         font-family: 'poppins', 'kanit', 'sansita', 'ubuntu';
         letter-spacing: 2px;
     }
-    
+
 }
 
 
 #conteiner-2 {
-    height: 100%;
+    height: 115%;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
+#conteiner-3 {
+    height: 115%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 255, 0.445);
+}

@@ -122,12 +122,11 @@
     }
 
     .conteudoConteiner1>h3 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         color: #ffffffcc;
         font-weight: 500;
         text-align: center;
         letter-spacing: 1px;
-        text-shadow: 0rem 0rem 4rem rgba(255, 0, 0, 0.416);
         line-height: 3.8rem;
     }
 
@@ -170,7 +169,7 @@
         text-align: center;
         justify-content: space-around;
         width: 100%;
-        height: 22%;
+        height: 12%;
     }
 
     .TitulosConteiner2>h1 {
@@ -186,19 +185,21 @@
     }
 
     .colecoes {
+        position: relative;
+        top: -3%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 15%;
+        height: 10%;
     }
 
     .colecoes>span {
-        font-size: 1.7rem;
-        margin: 1rem 1rem;
-        font-weight: bolder;
+        font-size: 1.6rem;
+        margin: 0rem 1rem;
+        font-weight: 500;
         color: #000000;
     }
 
@@ -210,13 +211,14 @@
     }
 
     .carousel {
-        width: 100%;
-        height: 30%;
-    }
-
-    .carousel-inner {
         position: relative;
-        top: 25%;
+        top: -10%;
+        width: 100%;
+    }
+    
+    .carousel-inner {
+        width: 100%;
+        position: relative;
     }
 
     .carousel-item>img {
@@ -227,15 +229,24 @@
         box-shadow: 0rem 0rem 5rem rgba(0, 0, 0, 0.527);
     }
 
+    .carousel-item>h2 {
+        margin-top: 0.8rem;
+        font: bold;
+        line-height: 3rem;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'ubuntu', 'kanit', 'saira', 'poppins';
+    }
+
     .carousel-control-next {
         position: absolute;
-        top: 40%;
+        top: -20%;
         color: black;
     }
 
     .carousel-control-prev {
         position: absolute;
-        top: 40%;
+        top: -20%;
     }
 
     .carousel-control-next-icon {
@@ -248,5 +259,45 @@
 
     .carousel-caption {
         color: black;
+    }
+
+    .ConteinerCamisetas {
+        overflow: hidden;
+        position: relative;
+        top: -10%;
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .camisetas {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 48%;
+        height: 100%;
+    }
+
+    .camisetas > img{
+        width: 90%;
+        height: 70%;
+        border: 1px solid rgba(0, 0, 0, 0.384);
+        box-shadow: 0rem 0rem 1rem rgba(8, 8, 8, 0.39);
+    }
+
+    .camisetas > img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .titulosCamisetas {
+        text-align: center;
+        text-transform: uppercase;
     }
 }
