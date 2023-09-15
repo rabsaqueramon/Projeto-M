@@ -282,10 +282,9 @@
     }
 
     .camisetas > img{
-        width: 90%;
+        width: 80%;
         height: 70%;
         border: 1px solid rgba(0, 0, 0, 0.384);
-        box-shadow: 0rem 0rem 1rem rgba(8, 8, 8, 0.39);
     }
 
     .camisetas > img:hover{
@@ -295,6 +294,6 @@
 
     .titulosCamisetas {
         text-align: center;
-        text-transform: uppercase;
+        text-transform: capitalize ;
     }
 }
